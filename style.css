@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #ffffff;
+    position: fixed;
+    padding: 10px 100px;
+    align-items: center;
+}
+
+header p{
+    color: black;
+    font-size: 36px;
+}
+
+header p span{
+    color: blue;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    margin: 3px;
+}
+
+main{
+    width: 100%;
+    height: px;
+    background-image: url(photo_2023-12-17_14-48-16.jpg);
+    background-size: cover;
+    padding-top: 65px;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    height: 700px;
+    position: relative;
+    padding-top: 200px;
+}
+.div p:nth-child(1){
+    width: 762px;
+    height: 100px;
+    font-weight: 700;
+    color: white;
+    font-size: 100px;
+}
+
+.div p:nth-child(2){
+    width: 762px;
+    height: 60px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.div{
+    width: 762px;
+    height: 360px;
+    text-align: right;
+    margin-left: 600px;
+}
+.Kafilat {
+    width: 400px;
+    height: 500px;
+}
+
+.Kafilat h1{
+    text-align: center;
+    margin-top: 50%;
+    transform: translate(-50% -50%);
+    color: #FFFFFF;
+    font-size: 85px;
+    background-repeat: no-repeat;
+
+}
+
+.Tours h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+.Tours h2{
+    text-align: center;
+}
+
+.one {
+    background-image: url(https://w0.peakpx.com/wallpaper/931/60/HD-wallpaper-london-england-uk-city.jpg);
+}
+
+.two {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/67/283/725/night-lights-in-dubai-wallpaper-preview.jpg);
+}
+
+.three{
+    background-image: url(https://i.pinimg.com/originals/c8/d3/08/c8d308538241246b0f06f5c9058f779a.jpg);
+}
+
+.KAFOLAT {
+    display: flex;
+    padding: 30px 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populars{
+    width: 400px;
+    height: 270px;
+    background-color: darkgray;
+    border-radius: 18px;
+}
+
+.circleforpop {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+.fon{
+    display: flex;
+    padding: 20px 150px;
+    gap: 45px;
+}
+
+.circleforpop{
+    margin-left: 170px;
+}
+
+.populars p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.populars p:nth-child(1){
+    color: aqua;
+}
+.Test{
+    display: flex;
+}
+
+.input{
+    width: 470px;
+    height: 45px;
+    border-radius: 23px;
+    padding: 0 18px;
+    background-color: #fff;
+}
+ input{
+    width: 80%;
+    border: none;
+    outline: none;
+    color: chartreuse;
+}
+.Test {
+    background-color: #0d62e2;
+    padding: 15px 125px;
+}
+
+.form p {
+    color: #FFFFFF;
+}
+
+.form h1{
+    font-size: 28px;
+    color: white;
+}
+
+button{
+    width:80px ;
+    height: 45px;
+    background-color: #208be4;
+    color: #fff;
+    padding: 5px;
+    font-size: 19px;
+    border-radius: 14px;
+    border: 2px solid #208be4;
+    outline: none;
+}
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: #2442c9;
+}
+
+footer p{
+    color: #FFFFFF;
+}
+
+p span{
+    color: #000;
+}
